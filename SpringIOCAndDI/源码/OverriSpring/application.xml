@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- <bean class="com.Test.TestJava1" id="Test1" />
+	<bean class="com.Test.TestJava2" id="Test2" />
+	<bean class="com.Test.TestJava" id="Test">
+		<property name="test1" ref="Test2" />
+		<property name="name" value="l"></property>
+		<property name="test" ref="Test1"></property>
+	</bean>  -->
+	<!-- <bean class="com.Test.TestJava" id="Test"> <property name="name" value="l"></property> 
+		<property name="user" ref="Test1"></property> </bean> -->
+	 <context-component-scan base-package="com.Test"/> 
+</beans>
